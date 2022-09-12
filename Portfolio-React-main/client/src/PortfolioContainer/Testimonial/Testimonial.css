@@ -1,0 +1,95 @@
+.testi-img{
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-color: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.testimonial-section{
+    padding: 80px 0 0px;
+    background-color: #191A19;
+    position: relative;
+}
+.testimonial-section path{
+    fill: white;
+}
+
+.testimonial-continer{
+    background-color: #fff !important;
+}
+
+
+.testimonial-section .testi-item{
+    background-color: #D8E9A8;
+    padding: 30px;
+    border-radius: 50px 50px 50px 0px;
+}
+
+.testimonial-section .testi-item p{
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+margin:  0 0 10px;
+font-style: italic;
+
+}
+.testimonial-section .testi-item p .fa-quote-left{
+margin-right: 5px;
+color: #4E9F3D;
+}
+
+.testimonial-section .testi-item p .fa-quote-right{
+margin-left: 5px;
+color: #4E9F3D;
+
+}
+
+.testimonial-section .testi-comment .stars{
+margin:  0 0 2px;
+}
+
+.testimonial-section .testi-comment .stars li{
+    display: inline-block;
+    margin: 0 1px;
+}
+.testimonial-section .testi-comment .stars li i{
+    font-size: 13px;
+color: #4E9F3D;
+}
+
+.testimonial-section .client-info{
+    position: relative;
+    padding-left: 80px;
+    padding-top: 5px;
+    min-height: 60px;
+}
+
+.testimonial-section .client-info h5{
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 33px;
+     margin: 0 0 2px;
+}
+
+.testimonial-section .client-info p{
+    font-size: 16px;
+    line-height: 33px;
+    font-weight: 400;
+    margin: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+

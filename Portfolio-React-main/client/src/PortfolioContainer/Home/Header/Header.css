@@ -1,0 +1,154 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    color: #D8E9A8;
+    background-color: #191A19;
+}
+
+.header{
+    background-color: #191A19;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+
+.header-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 70%;
+    color:#D8E9A8;
+    
+
+}
+
+.header-logo{
+    font-size: 30px;
+    font-family:  'Poppins' sans-serif ;
+    font-weight: 350;
+    color:#D8E9A8;
+}
+
+    .word{
+        transition: .3s;
+        cursor: pointer;
+    }
+.word:hover{
+  transform: scale(1.5) !important;
+  padding-left: 4px;
+  padding-right: 4px;
+  transition: .3s;
+  text-decoration: underline;
+    
+       
+}
+
+.word:hover{
+    color: #fff;
+    font-size: 35px !important;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.header-options{
+    
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.options-span:hover{
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+.options-span{
+    padding: 0 50px 0 0;
+
+}
+.header-hamburger{
+    display: none;
+    color: #D8E9A8;
+}
+
+.header-options-seperator{
+    margin: 0 50px 0 0;
+    color: #D8E9A8;
+}
+
+.selected-header-option{
+    color:#4E9F3D;
+}
+
+@media only screen and (max-width: 1110px){
+    .header-parent{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 970px){
+    .header-hamburger{
+        display: block;
+    }
+    .header-parent{
+        width: 100%;
+        padding: 0 40px;
+        position: relative;
+    }
+    .header-options{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: -100%;
+        top:0px;
+        height: 100vh;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #191A19;
+        z-index: 1000;
+        opacity: 0.8%;
+        transition: all 0.8s ease-out;
+
+    }
+
+    .header-option-seperator{
+        margin: 0;
+    }
+    .selected-header-option{
+        color: #D8E9A8;
+    }
+    .header-options{
+        color: #D8E9A8;
+    }
+    .header-hamburger-bars{
+        font-size: 30px;
+        cursor: pointer;
+        margin: 0 10px;
+        color: #D8E9A8;
+    }
+    .show-hamburger-options{
+        left:0;
+        opacity: .9;
+    }
+    .options-span{
+        padding: 0 0 0 0;
+    
+    }
+}
+

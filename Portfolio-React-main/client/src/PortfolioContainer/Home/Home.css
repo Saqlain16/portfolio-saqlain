@@ -1,0 +1,44 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    background:linear-gradient(45deg,#1E5128,#4E9F3D);
+  border-radius: 0  0 30% 30% /0 0 30% 30%;
+  transition: all 1s;
+  box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+.home-container:hover{
+  border-radius: 0  0 60% 60% /0 0 60% 60%;
+  transition: all 1s;
+
+    
+}
+
+@media only screen and (max-width: 1110px){
+    .home-container{
+        min-height: 670px;
+             
+        }
+
+}
+@media screen and (max-width: 910px){
+    .home-container{
+        min-height: 670px;
+  border-radius: 0;
+        }
+}
+@media screen and (max-width: 810px){
+    .home-container{
+        min-height: 670px;
+  border-radius: 0;
+             
+        }
+}
+@media screen and (max-width: 375px){
+    .home-container{
+        min-height: 670px;
+  border-radius: 0;
+             
+        }
+    }
